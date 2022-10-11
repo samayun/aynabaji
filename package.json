@@ -9,7 +9,7 @@
   },
   "mirror": {
     "platform": "gitlab",
-    "platformTo": "github, 
+    "platformTo": "github", 
     "group": "samayun",
     "groupTo": "SamuOps-solutions", 
     "projects": {
