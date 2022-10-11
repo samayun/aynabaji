@@ -19,13 +19,15 @@ npm start
 ```js
 
 // package.json
-
-  "mirror": {
-    "platform": "github", // gitlab, bitbucket
-    "group": "samayun", // USERNAME or ORGANIZATION
-    "projects": [
-      "penguin.js", "head-first-typescript"
-    ]   // ALL PROJECT SLUGS
+  
+ "mirror": {
+    "platform": "gitlab",
+    "platformTo": "github", 
+    "group": "samayun",
+    "groupTo": "SamuOps-solutions", 
+    "projects": {
+      "mflix-penguin-core" : "penguin-api"
+    }
   },
 
 
