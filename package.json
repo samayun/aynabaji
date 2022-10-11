@@ -8,15 +8,19 @@
     "start": "node lib/index.js"
   },
   "mirror": {
-    "platform": "github",
+    "platform": "gitlab",
+    "platformTo": "github, 
     "group": "samayun",
-    "projects": [
-      "penguin.js", "head-first-typescript"
-    ]
+    "groupTo": "SamuOps-solutions", 
+    "projects": {
+      "mflix-penguin-core" : "penguin-api"
+    }
   },
   "keywords": [
     "Mirror",
-    "Repository"
+    "Repository",
+    "git",
+    "backup-repository"
   ],
   "author": "Samayun Chowdhury",
   "license": "MIT"
