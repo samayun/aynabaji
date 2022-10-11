@@ -1,0 +1,23 @@
+{
+  "name": "mirror-code-repo",
+  "version": "1.0.0",
+  "description": "Mirror many git repositories on local directory",
+  "bin": "lib/index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "mirror": {
+    "platform": "github",
+    "group": "samayun",
+    "projects": [
+      "penguin.js", "head-first-typescript"
+    ]
+  },
+  "keywords": [
+    "Mirror",
+    "Repository"
+  ],
+  "author": "Samayun Chowdhury",
+  "license": "MIT"
+}
