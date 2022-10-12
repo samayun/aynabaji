@@ -1,6 +1,7 @@
 # clone-mirror-repositories
 Clone selcted repositories &amp; mirror on local  disk
 
+## Clone & prepare
 
 ```bash
 
@@ -10,11 +11,10 @@ cd clone-mirror-repositories
 
 code .
 
-npm start
-
 ```
 
 
+## Configure
 
 ```js
 
@@ -30,6 +30,15 @@ npm start
     }
   },
 
+
+```
+
+
+## Start Mirroring
+
+```bash
+
+npm start
 
 ```
 
