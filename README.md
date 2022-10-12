@@ -5,7 +5,7 @@ Clone selcted repositories &amp; mirror on local  disk
 
 ```bash
 
-git clone git@github.com:samayun/clone-mirror-repositories.git
+git clone git@github.com:samayun/aynabaji.git
 
 cd clone-mirror-repositories
 
