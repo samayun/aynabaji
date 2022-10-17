@@ -7,7 +7,7 @@ Clone selcted repositories &amp; mirror on local  disk
 
 git clone git@github.com:samayun/aynabaji.git
 
-cd clone-mirror-repositories
+cd aynabaji
 
 code .
 
