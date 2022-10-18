@@ -31,7 +31,7 @@ code .
     "bare:pull": false,
     "mirror:push": false,
     "takeGift": false,
-    "setRemoteOrigin": {
+    "addRemoteOrigin": {
       "~/Projects/TEST/MIRRORED_REPO_LOCAL_DIRECTORY " : "PROJECT_SLUG"
     }
   },
